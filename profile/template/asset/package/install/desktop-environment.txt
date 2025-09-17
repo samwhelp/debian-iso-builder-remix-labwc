@@ -17,6 +17,10 @@ labwc
 xwayland
 
 
+swaybg
+hyprpaper
+
+
 xfce4-terminal
 
 
