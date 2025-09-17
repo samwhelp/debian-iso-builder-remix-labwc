@@ -19,6 +19,7 @@ xwayland
 
 swaybg
 hyprpaper
+wf-shell
 
 
 xfce4-terminal

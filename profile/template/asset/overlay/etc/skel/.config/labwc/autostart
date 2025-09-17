@@ -31,7 +31,7 @@ hyprpaper &
 ## ## polkit
 ##
 
-/usr/libexec/xfce-polkit &
+#/usr/libexec/xfce-polkit &
 
 
 
