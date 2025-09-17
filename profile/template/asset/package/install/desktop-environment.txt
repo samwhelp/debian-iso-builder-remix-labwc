@@ -36,10 +36,8 @@ pavucontrol
 pulseaudio
 
 
-xarchiver
 
 
-xfce4-panel-profiles
 
 
 
