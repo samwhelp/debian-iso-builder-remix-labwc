@@ -343,6 +343,40 @@ default values.
 		<keybind key="A-C-bracketright">
 			<action name="Execute" command="brightnessctl set +1%" />
 		</keybind>
+
+		<!-- ## Screenshot / via screengrab //-->
+		<!--
+		<keybind key="Print">
+			<action name="Execute" command="screengrab -f" />
+		</keybind>
+		<keybind key="A-Print">
+			<action name="Execute" command="screengrab" />
+		</keybind>
+		<keybind key="W-Print">
+			<action name="Execute" command="screengrab -a" />
+		</keybind>
+		<keybind key="C-Print">
+			<action name="Execute" command="screengrab -r" />
+		</keybind>
+		//-->
+
+		<!-- ## Screenshot / via xfce4-screenshooter //-->
+		<!--
+		<keybind key="Print">
+			<action name="Execute" command="xfce4-screenshooter -f" />
+		</keybind>
+		<keybind key="A-Print">
+			<action name="Execute" command="xfce4-screenshooter" />
+		</keybind>
+		<keybind key="W-Print">
+			<action name="Execute" command="xfce4-screenshooter -w" />
+		</keybind>
+		<keybind key="C-Print">
+			<action name="Execute" command="xfce4-screenshooter -r" />
+		</keybind>
+		//-->
+
+		<!-- ## Screenshot / via grimshot //-->
 		<keybind key="Print">
 			<action name="Execute" command="grimshot save screen" />
 		</keybind>
@@ -355,7 +389,9 @@ default values.
 		<keybind key="C-Print">
 			<action name="Execute" command="grimshot save area" />
 		</keybind>
-		<!-- SnapToRegion via W-Numpad -->
+
+
+		<!-- SnapToRegion / via W-Numpad -->
 		<!--
 		<keybind key="W-KP_7"><action name="SnapToRegion" region="top-left" /></keybind>
 		<keybind key="W-KP_8"><action name="SnapToRegion" region="top" /></keybind>
@@ -367,6 +403,7 @@ default values.
 		<keybind key="W-KP_2"><action name="SnapToRegion" region="bottom" /></keybind>
 		<keybind key="W-KP_3"><action name="SnapToRegion" region="bottom-right" /></keybind>
 		-->
+
 	</keyboard>
 
 	<!--

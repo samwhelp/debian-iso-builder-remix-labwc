@@ -37,6 +37,11 @@ mako-notifier
 swayidle
 
 
+grimshot
+screengrab
+xfce4-screenshooter
+
+
 kitty
 foot
 xfce4-terminal
