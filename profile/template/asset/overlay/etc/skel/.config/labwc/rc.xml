@@ -168,21 +168,21 @@ default values.
 		</keybind>
 		<!-- wofi //-->
 		<keybind key="A-S-d">
-			<action name="Execute" command="pkill wofi || wofi --normal-window --show drun --allow-images" />
+			<action name="Execute" command="wofi --normal-window --show drun --allow-images" />
 		</keybind>
 		<keybind key="A-S-r">
-			<action name="Execute" command="pkill wofi || wofi --show run" />
+			<action name="Execute" command="wofi --show run" />
 		</keybind>
 		<!-- rofi //-->
 		<!--
 		<keybind key="A-S-d">
-			<action name="Execute" command="pkill rofi || rofi -show drun -show-icons" />
+			<action name="Execute" command="rofi -show drun -show-icons" />
 		</keybind>
 		<keybind key="A-S-r">
-			<action name="Execute" command="pkill rofi || rofi -show run" />
+			<action name="Execute" command="rofi -show run" />
 		</keybind>
 		<keybind key="A-S-w">
-			<action name="Execute" command="pkill rofi || rofi -show window -show-icons" />
+			<action name="Execute" command="rofi -show window -show-icons" />
 		</keybind>
 		//-->
 		<keybind key="A-Return">
