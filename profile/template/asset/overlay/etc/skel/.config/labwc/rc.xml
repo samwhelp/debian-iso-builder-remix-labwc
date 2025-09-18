@@ -176,31 +176,34 @@ default values.
 			<action name="Execute" command="rofi -show window -show-icons" />
 		</keybind>
 		<keybind key="A-Return">
-			<action name="Execute" command="sakura -m" />
+			<action name="Execute" command="sakura" />
 		</keybind>
 		<keybind key="A-S-a">
-			<action name="Execute" command="sakura -m" />
+			<action name="Execute" command="sakura" />
 		</keybind>
 		<keybind key="A-C-a">
-			<action name="Execute" command="xfce4-terminal --maximize" />
+			<action name="Execute" command="xfce4-terminal" />
 		</keybind>
 		<keybind key="A-S-t">
-			<action name="Execute" command="qterminal" />
+			<action name="Execute" command="kitty" />
 		</keybind>
 		<keybind key="A-C-t">
-			<action name="Execute" command="lxterminal" />
+			<action name="Execute" command="foot" />
 		</keybind>
 		<keybind key="A-S-f">
-			<action name="Execute" command="pcmanfm-qt" />
+			<action name="Execute" command="thunar" />
 		</keybind>
 		<keybind key="A-S-g">
-			<action name="Execute" command="thunar" />
+			<action name="Execute" command="pcmanfm" />
 		</keybind>
 		<keybind key="A-S-b">
 			<action name="Execute" command="firefox --new-tab about:blank" />
 		</keybind>
 		<keybind key="A-S-e">
 			<action name="Execute" command="mousepad" />
+		</keybind>
+		<keybind key="A-S-s">
+			<action name="Execute" command="nwg-look" />
 		</keybind>
 		<keybind key="A-S-v">
 			<action name="Execute" command="mate-volume-control" />

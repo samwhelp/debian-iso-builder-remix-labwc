@@ -39,7 +39,7 @@
 
 <menu id="root-menu">
 	<item label="File Manager">
-		<action name="Execute" command="pcmanfm-qt" />
+		<action name="Execute" command="thunar" />
 	</item>
 	<item label="Text Editor">
 		<action name="Execute" command="mousepad" />
@@ -50,17 +50,20 @@
 	<item label="Terminal">
 		<action name="Execute" command="sakura" />
 	</item>
+	<item label="Appearance">
+		<action name="Execute" command="nwg-look" />
+	</item>
 	<item label="Reconfigure">
 		<action name="Reconfigure" />
-	</item>
-	<item label="Exit">
-		<action name="Execute" command="wlogout" />
 	</item>
 	<item label="Logout">
 		<action name="Exit" />
 	</item>
 	<item label="Poweroff">
 		<action name="Execute" command="systemctl -i poweroff" />
+	</item>
+	<item label="Exit">
+		<action name="Execute" command="wlogout" />
 	</item>
 </menu>
 

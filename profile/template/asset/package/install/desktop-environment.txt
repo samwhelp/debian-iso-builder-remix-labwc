@@ -22,6 +22,23 @@ hyprpaper
 wf-shell
 
 
+wlogout
+
+
+wofi
+
+
+nwg-look
+
+
+mako-notifier
+
+
+swayidle
+
+
+kitty
+foot
 xfce4-terminal
 
 
@@ -34,7 +51,7 @@ mousepad
 
 pavucontrol
 pulseaudio
-
+mate-media
 
 
 
