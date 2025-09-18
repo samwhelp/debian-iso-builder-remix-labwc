@@ -22,6 +22,9 @@ hyprpaper
 wf-shell
 
 
+waybar
+
+
 wlogout
 
 
