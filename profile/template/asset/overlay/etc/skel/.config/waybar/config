@@ -24,7 +24,7 @@
 		},
 		"custom/launcher": {
 			"format": "🔍",
-			"on-click": "rofi -show drun",
+			"on-click": "pkill wofi || wofi --normal-window --show drun --allow-images",
 			"tooltip": false
 		},
 		"sway/mode": {
@@ -68,7 +68,7 @@
 		},
 		"custom/os_button": {
 			"format": "🔍",
-			"on-click": "rofi -show drun",
+			"on-click": "pkill wofi || wofi --normal-window --show drun --allow-images",
 			"tooltip": false
 		},
 		"wlr/taskbar": {
