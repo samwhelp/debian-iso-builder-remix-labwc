@@ -17,6 +17,10 @@ labwc
 xwayland
 
 
+swayidle
+swaylock
+
+
 swaybg
 hyprpaper
 wf-shell
@@ -38,9 +42,6 @@ mako-notifier
 
 
 policykit-1-gnome
-
-
-swayidle
 
 
 grimshot
