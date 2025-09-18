@@ -166,15 +166,25 @@ default values.
 		<keybind key="A-C-Delete">
 			<action name="Execute" command="systemctl -i reboot" />
 		</keybind>
+		<!-- wofi //-->
 		<keybind key="A-S-d">
-			<action name="Execute" command="rofi -show drun -show-icons" />
+			<action name="Execute" command="pkill wofi || wofi --normal-window --show drun --allow-images" />
 		</keybind>
 		<keybind key="A-S-r">
-			<action name="Execute" command="rofi -show run" />
+			<action name="Execute" command="pkill wofi || wofi --show run" />
+		</keybind>
+		<!-- rofi //-->
+		<!--
+		<keybind key="A-S-d">
+			<action name="Execute" command="pkill rofi || rofi -show drun -show-icons" />
+		</keybind>
+		<keybind key="A-S-r">
+			<action name="Execute" command="pkill rofi || rofi -show run" />
 		</keybind>
 		<keybind key="A-S-w">
-			<action name="Execute" command="rofi -show window -show-icons" />
+			<action name="Execute" command="pkill rofi || rofi -show window -show-icons" />
 		</keybind>
+		//-->
 		<keybind key="A-Return">
 			<action name="Execute" command="sakura" />
 		</keybind>
