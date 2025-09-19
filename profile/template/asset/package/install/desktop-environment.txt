@@ -62,8 +62,8 @@ mate-media
 
 
 grimshot
-screengrab
-xfce4-screenshooter
+#screengrab
+#xfce4-screenshooter
 
 
 brightnessctl
