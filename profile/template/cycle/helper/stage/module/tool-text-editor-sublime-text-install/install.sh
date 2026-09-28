@@ -50,7 +50,7 @@ REF_INIT_DIR_PATH="${REF_BASE_DIR_PATH}/../../../ext"
 sys_sublime_text_install () {
 
 
-	local deb_version="4200"
+	local deb_version="4215"
 	local deb_name="sublime-text_build-${deb_version}_amd64.deb"
 	local deb_url="https://download.sublimetext.com/${deb_name}"
 	local tmp_dir_path="/tmp/sublime-text"
